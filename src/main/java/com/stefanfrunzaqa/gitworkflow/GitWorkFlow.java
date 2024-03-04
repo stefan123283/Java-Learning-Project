@@ -13,10 +13,11 @@ public class GitWorkFlow {
         String step9 = "Navigate to the GitHub branch";
         String step10 = "Create a Pull Request from origin/new_branch_name into origin/master";
         String step11 = "Add the Pull Request details and request review from your colleagues";
-        String step12 = "If at least 2 colleagues approve it, then merge the branch";
-        String step13 = "After that, you can delete the origin/new_branch_name";
-        String step14 = "Switch back to the master local branch";
-        String step15 = "Perform git fetch and git pull on the local master branch";
+        String step12 = "If a change is required, then the last commit will be adjusted by using git commit amend";
+        String step13 = "In case of a commit amend, a git pull force should be performed in order to update the remote branch and existing Pull Request";
+        String step14 = "The origin/new_branch_name can be deleted";
+        String step15 = "Switch back to the master local branch";
+        String step16 = "Perform git fetch and git pull on the local master branch";
 
         System.out.println(step1);
         System.out.println(step2);
@@ -33,5 +34,6 @@ public class GitWorkFlow {
         System.out.println(step13);
         System.out.println(step14);
         System.out.println(step15);
+        System.out.println(step16);
     }
 }
